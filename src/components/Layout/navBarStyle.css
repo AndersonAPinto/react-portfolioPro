@@ -1,0 +1,78 @@
+.text_alert{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    border: none;
+    font-size: 1.2em;
+    border: 2px solid #e6bd0760;
+    border-radius: 10px;
+    padding: 5px;
+}
+.text_alert h5{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+.container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 30vh 0 10vh 0;
+    padding: 0;
+    
+}
+
+.container_text h1 {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6em;
+
+}
+
+.container_text h5 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+    
+}
+ .btn_works{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+    
+}
+.btn_works {
+    display: flex;
+    
+    padding: 7px 30px;
+    background-color: #d48d0091;
+    border: none;
+    border-radius: 45px;
+    background-image: radial-gradient(circle, #413e3ec9, #ffb004c2);
+    cursor: pointer;
+}
+.btn_works:active{
+    padding: 6px 29px;
+}
+.icon_works{
+   font-size: 2.5em;
+   margin-left: 15px;
+   border-radius: 50%;
+   border: 1px solid rgb(92, 92, 38);
+}
+.icon_works:hover{
+    border: 1px solid rgb(192, 192, 185);
+    
+}
