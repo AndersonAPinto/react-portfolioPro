@@ -13,6 +13,9 @@
     flex-direction: column;
     text-align: center;
     padding: 0;
+    justify-content: space-around;
+    
+    
     
 }
 
@@ -30,6 +33,7 @@
     background-color: #e6bd0700;
     border: none;
     cursor: pointer;
+    color: aliceblue;
 }
 .btn_header:active{
     font-size: 39px;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React, { useState, useEffect } from "react"
 import '../Layout/navBarStyle.css'
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import { AiOutlineAlert } from "react-icons/ai";
@@ -24,17 +24,15 @@ function NavBar() {
                 <AiOutlineAlert style={{ marginRight: '3px', backgroundColor: color, borderRadius: '50%' }} />
                 <h5>Disponível para Trabalhos</h5>
             </button>
-            <Dropdown />
-
-                <div className="container_text">
-                {/*<img src={LogoPageNavBar} />*/}
+            <div className="container_text">
                 <h1>Anderson</h1>
-                <h5>Desenvolvedor Frontend</h5> </div>
+                <h5>Desenvolvedor Frontend</h5>
                 <button className="btn_works">
                     <p>MEUS TRABALHOS</p>
                     <MdOutlineKeyboardDoubleArrowDown className="icon_works" />
                 </button>
-           
+            </div>
+
         </>
     )
 }

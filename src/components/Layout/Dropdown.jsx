@@ -31,10 +31,10 @@ function Dropdown() {
         <div ref={toggleContainer}>
             <button  className="btn_header" onClick={toggleDropdown}>{isOpen ? <MdMenuOpen /> : <FiMenu />}</button>
             {isOpen && (
-                <nav className="header">
-                    <ul >
-                        <li><Link to='/' >Início</Link></li>
-                        <li><Link to={'aboutme'} >Sobre mim</Link></li>
+                <nav className="header" style={{color:'aliceblue'}}>
+                    <ul>
+                        <li><Link to={'/'} >Início</Link></li>
+                        <li><Link to={'/aboutme'} >Sobre mim</Link></li>
                         <li><Link to={'/contact'}>Contato</Link></li>
                         <li><Link to={'/works'}>Tabalhos</Link></li>
                     </ul>
