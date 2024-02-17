@@ -11,7 +11,7 @@ function NavBar() {
     useEffect(() => {
         // Define um intervalo para alternar a cor
         const intervalId = setInterval(() => {
-            setColor((prevColor) => (prevColor === '#CC8207' ? '#020002' : '#CC8207'));
+            setColor((prevColor) => (prevColor === '#CC8207' ? '#070600' : '#CC8207'));
         }, 500); // Alterna a cor a cada 500 ms
 
         // Limpa o intervalo quando o componente é desmontado
