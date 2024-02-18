@@ -1,10 +1,9 @@
 .container__AboutMe{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    background-color: #070600;
     width: 100%;
     height: 100vh;
-    left: 0;
+    
 }
 .container__AboutMe h1{
     font-family: "Dosis", sans-serif;
@@ -13,7 +12,10 @@
     font-style: normal;
     font-size: 4em;
     display: flex;
-  
+}
+.title{
+    display: flex;
+    align-items: start;
 }
 .container_texts{
     display: flex;
@@ -32,10 +34,9 @@
     background-image: radial-gradient(circle, #000000, #C68107);
 }
 .text_div{
-    width: 50%;
+    width: 40%;
     text-align: justify;
     font-size: 1.5em;
-    
 }
 .btn_aboutme{
     padding: 10px 20px;

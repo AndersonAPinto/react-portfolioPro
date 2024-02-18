@@ -1,6 +1,7 @@
 import Dropdown from './components/Layout/Dropdown.jsx';
-import NavBar from './components/Layout/NavBar.jsx';
+import Experience from './components/Pages/Experience.jsx';
 import AboutMe from './components/Pages/AboutMe.jsx';
+import Contact from './components/Pages/Contact.jsx';
 import Home from './components/Pages/Home.jsx';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -11,6 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </Router>
     )
