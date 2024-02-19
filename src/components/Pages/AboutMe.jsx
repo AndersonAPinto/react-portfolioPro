@@ -7,7 +7,7 @@ function AboutMe() {
     return (
         <div className="container__AboutMe">
             <div className="title">
-                <h1><HiArrowDownRight />Sobre mim </h1>
+                <h1><HiArrowDownRight/> Sobre mim </h1>
             </div>
 
             <div className="container_texts">

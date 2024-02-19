@@ -4,7 +4,8 @@
   font-family: Dosis;
   text-decoration: none;
   list-style: none;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   
 }
 body{

@@ -13,10 +13,7 @@
     flex-direction: column;
     text-align: center;
     padding: 0;
-    justify-content: space-around;
-    
-    
-    
+    justify-content: space-around; 
 }
 
 .header ul li :hover {

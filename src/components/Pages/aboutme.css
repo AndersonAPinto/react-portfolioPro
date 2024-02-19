@@ -1,8 +1,11 @@
 .container__AboutMe{
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    
     
 }
 .container__AboutMe h1{
@@ -15,14 +18,20 @@
 }
 .title{
     display: flex;
-    align-items: start;
+    align-items: center;
+    justify-content: start;
+    width: 70vw;
+    height: 15vh;
 }
 .container_texts{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 85%;
+    height: 85vh;
     padding: 0;
     margin-top: 0;
+    justify-content: space-around;
+    align-items: center;
 }
 .picture_div{
     height: 70vh;
@@ -34,7 +43,7 @@
     background-image: radial-gradient(circle, #000000, #C68107);
 }
 .text_div{
-    width: 40%;
+    width: 50%;
     text-align: justify;
     font-size: 1.5em;
 }

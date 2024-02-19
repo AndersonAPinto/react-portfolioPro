@@ -1,7 +1,10 @@
 .container__Contact{
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    margin: auto;
+    width: 90%;
     height: 100vh;
+    align-items: center;
+    flex-direction: column;
 }
 .title_contact h1{
     font-family: "Dosis", sans-serif;
@@ -10,48 +13,38 @@
     font-style: normal;
     font-size: 4em;
     display: flex;
-    justify-content: end;
-    border: 1px solid;
+    justify-content: start;
+    width: 70vw;
+    height: 15vh;
+    margin-bottom: 50px;
     
 }
-.div_icons{
+.div_title{
     display: flex;
-    flex-direction: row;
-    width: 75%;
-    height: 65vh;
-    border: 1px solid;
-    margin: auto;
-    padding:0;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .icons_contact{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-      
+    width: 600px;
+    height: 250px;
+    text-align: justify;
+    font-size: 1em;
+    margin: 20px 0;
+    border: 1px solid;
 }
-.icons_contact h2{
-    margin-bottom: 5px;
-}
-.icons_contact p{
+.div_icons {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.text_contact{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
+    height: 15vh;
+    width: 50vw;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    transform: 0.1s ease-in-out;
+    cursor: pointer;
     border: 1px solid;
     
 }
-.set_input input{
-    display: flex;
-    flex-direction: column;
-    width: 11vw; 
-}
-.set_form{
-    display: flex;
+.div_icons :hover{
+    transform: scale(1.5); 
 }
