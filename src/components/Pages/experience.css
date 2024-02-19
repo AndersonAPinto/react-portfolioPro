@@ -4,8 +4,15 @@
     width: 90%;
     height: 100vh;
     align-items: center;
-    flex-direction: column;   
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    
 }
+.container__Experience::-webkit-scrollbar {
+    display: none; 
+  }
 .container__Experience h1{
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
@@ -24,7 +31,7 @@
 
 .imgs_site{
     display: flex;
-    background-image: radial-gradient(circle, #000000, #C68107);
+    background-image: radial-gradient(circle, #000000, #ad6f04);
     width: 70vw;
     height: auto;
     padding: 5px;
@@ -32,6 +39,7 @@
     border-radius: 10px;
 }
 .imgs_site p{
-    width: 50%;
+    width: 55%;
     text-align: justify;
+    color: #b1b1b1;
 }

@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10vw;
+    
 }
 .icons_contact{
     width: 600px;
@@ -47,10 +47,9 @@
 .frame{
     position: absolute;
     height: 75vh;
-    width: 78vw;
+    width: 48vw;
     z-index: -1;
     top: 17vh;
-    left: 5vw;
     background-image: radial-gradient(circle, #312502, #C68107);
     border-radius: 10px;
 }

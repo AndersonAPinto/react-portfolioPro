@@ -57,13 +57,15 @@
 }
 
 .btn_works {
-    display: flex;
     padding: 7px 30px;
     background-color: #d48d0091;
     border: none;
     border-radius: 45px;
     background-image: radial-gradient(circle, #413e3ec9, #ffb004c2);
     cursor: pointer;
+}
+.btn_works p{
+    display: flex;
     align-items: center;
 }
 

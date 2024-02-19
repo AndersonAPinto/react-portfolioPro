@@ -11,7 +11,7 @@ function Contact() {
     return (
         <div className="container__Contact">
             <div className="frame">
-                <img src={Banner} style={{width:'22vw', height:'75vh', borderRadius:'10px'}}/>
+                {/*<img src={Banner} style={{width:'27vw', height:'75vh', borderRadius:'10px'}}/>*/}
             </div>
             <div className="title_contact">
                 <h1> <HiArrowDownRight /> Contato</h1>
@@ -20,7 +20,7 @@ function Contact() {
                 <div className="icons_contact">
                     <h2 style={{ fontSize: '35px', marginBottom:'5px',textAlign:'center' }}>Redes Sociais e Envio de Mensagens</h2>
                     <h6 style={{ marginBottom: '5px', color: '#C68107',fontSize:'1em', textAlign:'center' }}>Conecte-se Conosco com Apenas um Clique</h6>
-                    <p style={{ color: '#797979', fontSize:'1.2em' }}>
+                    <p style={{ color: '#b1b1b1', fontSize:'1.2em' }}>
                         Valorizo cada oportunidade de interagir com você. Para tornar sua experiência comigo ainda mais direta e conveniente, disponibilizo ícones de acesso rápido abaixo. Cada ícone é uma porta para minhas principais plataformas de comunicação e redes sociais, permitindo que você escolha o canal preferencial de contato com facilidade e rapidez.
                         Seja para fazer perguntas, solicitar suporte, ou compartilhar suas impressões, estamos a apenas um clique de distância. Estarei comprometido em fornecer respostas e soluções ágeis e atenciosas.
                         Estou animado para ouvir o que você tem a dizer.</p>
