@@ -16,7 +16,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin: auto;
+    margin: 0;
     
 }
 
@@ -43,9 +43,8 @@
     font-weight: 300;
     font-style: normal;
     font-size: 2em;
-    
-   
-    
+    margin: 0;
+     
 }
 
 .btn_works{

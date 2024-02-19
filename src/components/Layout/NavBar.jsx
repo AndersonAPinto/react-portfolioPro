@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import '../Layout/navBarStyle.css'
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import { AiOutlineAlert } from "react-icons/ai";
-import Dropdown from "./Dropdown";
 
 
 function NavBar() {

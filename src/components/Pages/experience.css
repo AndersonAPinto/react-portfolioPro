@@ -21,12 +21,7 @@
     width: 70vw;
     height: 15vh;
 }
-h5{
-    border: 1px solid;
-    width: 50vw;
-    display: flex;
-    justify-content: end;
-}
+
 .imgs_site{
     display: flex;
     background-image: radial-gradient(circle, #000000, #C68107);
