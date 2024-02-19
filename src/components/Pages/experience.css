@@ -1,0 +1,42 @@
+.container__Experience{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;   
+}
+.container__Experience h1{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4em;
+    display: flex;
+}
+.title_experience{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70vw;
+    height: 15vh;
+}
+h5{
+    border: 1px solid;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+}
+.imgs_site{
+    display: flex;
+    background-image: radial-gradient(circle, #000000, #C68107);
+    width: 70vw;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+.imgs_site p{
+    width: 50%;
+    text-align: justify;
+}

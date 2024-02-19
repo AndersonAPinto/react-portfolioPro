@@ -4,11 +4,9 @@
     width: 90%;
     height: 100vh;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
-.container__AboutMe h1{
+.title_experience h1{
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;

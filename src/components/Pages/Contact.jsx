@@ -14,20 +14,20 @@ function Contact() {
             </div>
             <div className="div_title">
                 <div className="icons_contact">
-                    <h2 style={{ fontSize: '35px', marginBottom:'5px' }}>Redes Sociais e Envio de Mensagens</h2>
-
-                    <p>Conecte-se Conosco com Apenas um Clique
-
-                        Valorizamos cada oportunidade de interagir com você. Para tornar sua experiência conosco ainda mais direta e conveniente, disponibilizamos ícones de acesso rápido abaixo. Cada ícone é uma porta para nossas principais plataformas de comunicação e redes sociais, permitindo que você escolha o canal preferencial de contato com facilidade e rapidez.
-
-                        Seja para fazer perguntas, solicitar suporte, ou compartilhar suas impressões, estamos a apenas um clique de distância. Nossa equipe está comprometida em fornecer respostas e soluções ágeis e atenciosas.
-
-                        Encorajamos você a explorar esses atalhos e a se manter atualizado com nossas últimas notícias e atualizações seguindo-nos nas redes sociais. Sua participação é fundamental para nós, e estamos animados para ouvir o que você tem a dizer.</p>
-
-
+                    <h2 style={{ fontSize: '35px', marginBottom:'5px',textAlign:'center' }}>Redes Sociais e Envio de Mensagens</h2>
+                    <h6 style={{ marginBottom: '5px', color: '#C68107',fontSize:'1em', textAlign:'center' }}>Conecte-se Conosco com Apenas um Clique</h6>
+                    <p style={{ color: '#797979', fontSize:'1.2em' }}>
+                        Valorizo cada oportunidade de interagir com você. Para tornar sua experiência comigo ainda mais direta e conveniente, disponibilizo ícones de acesso rápido abaixo. Cada ícone é uma porta para minhas principais plataformas de comunicação e redes sociais, permitindo que você escolha o canal preferencial de contato com facilidade e rapidez.
+                        Seja para fazer perguntas, solicitar suporte, ou compartilhar suas impressões, estamos a apenas um clique de distância. Estarei comprometido em fornecer respostas e soluções ágeis e atenciosas.
+                        Estou animado para ouvir o que você tem a dizer.</p>
                 </div>
                 <div className="div_icons">
-                    <SlSocialLinkedin /><SlSocialGithub /><SlSocialFacebook /><SlSocialLinkedin /><SlSocialInstagram /><FaWhatsapp /><BiMailSend style={{ fontSize: '50px' }} />
+                    <a href="https://www.linkedin.com/in/andersonapinto/" target="_blank" rel="noopener noreferrer"><SlSocialLinkedin /></a>
+                    <a href="https://github.com/AndersonAPinto" target="_blank" rel="noopener noreferrer"><SlSocialGithub /></a>
+                    <a href="https://www.facebook.com/andersonaspinto/" target="_blank" rel="noopener noreferrer"><SlSocialFacebook /></a>
+                    <a href="https://www.instagram.com/andersonaugusto.pinto/" target="_blank" rel="noopener noreferrer"><SlSocialInstagram /></a>
+                    <a href="https://wa.me/5551997802755" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+                    <a href="mailto:andersonaugustopinto@gmail.com" target="_blank" rel="noopener noreferrer"><BiMailSend style={{ fontSize: '54px' }} /></a>     
                 </div>
             </div>
         </div>

@@ -16,22 +16,18 @@
     justify-content: start;
     width: 70vw;
     height: 15vh;
-    margin-bottom: 50px;
-    
+    margin-bottom: 20px;
 }
 .div_title{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .icons_contact{
     width: 600px;
-    height: 250px;
+    height:auto;
     text-align: justify;
-    font-size: 1em;
     margin: 20px 0;
-    border: 1px solid;
 }
 .div_icons {
     display: flex;
@@ -42,9 +38,8 @@
     font-size: 40px;
     transform: 0.1s ease-in-out;
     cursor: pointer;
-    border: 1px solid;
-    
 }
 .div_icons :hover{
-    transform: scale(1.5); 
+    color: #C68107;
+    transform: scale(0.9); 
 }
