@@ -1,7 +1,8 @@
 import React from "react";
 import Photo from '../../imgs/photo.png'
 import { HiArrowDownRight } from "react-icons/hi2";
-import './aboutme.css'
+import './aboutme.css';
+import './aboutmemobile.css';
 
 function AboutMe() {
     return (

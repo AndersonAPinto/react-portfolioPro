@@ -1,10 +1,10 @@
 .container_video {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     overflow: hidden;
-    z-index: -1;
+   
 
 }

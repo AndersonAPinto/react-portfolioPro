@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
 import { MdMenuOpen } from "react-icons/md";
 import './dropdown.css';
+import './dropdownmobile.css';
 
 function Dropdown() {
     const [isOpen, setIsOpen] = useState(false);
