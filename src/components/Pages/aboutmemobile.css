@@ -67,6 +67,7 @@
 @media (max-width: 520px) {
     .container_texts{
         flex-direction: column;
+        width: 140vw;
     }
 
     .title h1{
@@ -83,9 +84,11 @@
         margin-top: 1vh;
         margin-left: 3.5vw;
     }
-    .text_div{
-        font-size: 0.5em;
+    .text_div p{
+        font-size: 1em;
         padding: 1vw;
+        
+        align-items: flex-start;
         
     }
 }
