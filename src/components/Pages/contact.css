@@ -41,14 +41,13 @@
     cursor: pointer;
 }
 .div_icons :hover{
-    color: #C68107;
     transform: scale(0.9); 
 }
 .frame{
     position: absolute;
     height: 75vh;
     width: 48vw;
-    z-index: -1;
+    z-index: 0;
     top: 17vh;
     background-image: radial-gradient(circle, #312502, #C68107);
     border-radius: 10px;
