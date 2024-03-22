@@ -3,6 +3,8 @@ import { HiArrowDownRight } from "react-icons/hi2";
 import SiteGadj from '../../imgs/Site Gadj.png';
 import WebSite_Englistest from '../../imgs/WebSite(Englistest).png';
 import WebSiteCOnsEletr from '../../imgs/WebSiteConsumptionEletricCar.png';
+import QuatroTemperamentos from '../../imgs/Site temperamentos.png';
+import GeradorSenha from '../../imgs/Gerador de Senhas.png'
 import App_1 from '../../imgs/App_1.png'
 
 import './experience.css';
@@ -55,6 +57,33 @@ function Experience() {
                 </p>
             </div>
 
+            <hr style={{ margin: '25px', width: '70vw' }} />
+
+            <div className="imgs_site" >
+                <img src={QuatroTemperamentos} />
+                <p style={{ fontSize: '1.3em', marginRight: '1vw' }}>
+                    <h6 style={{ color: '#C68107' }}>Os 4 temperamentos</h6>
+                    O teste consiste em 20 perguntas simples que você deve responder. Ao final do teste, o resultado com uma das quatro tipos de personalidade será revelada.
+                    Sanguíneo: Indivíduos otimistas e entusiastas que gostam de estar com outras pessoas e se divertir.
+                    Colérico: Indivíduos líderes e autoconfiantes que gostam de tomar decisões e controlar as coisas.
+                    Fleumático: Indivíduos pacíficos e calmos que gostam de evitar conflitos e seguir a rotina.
+                    Melancólico: Indivíduos analíticos e introspectivos que gostam de pensar profundamente e analisar as coisas.
+                    <a href="https://angular-quiz-web.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#ff6b08' }}> Confira</a>.
+                </p>
+            </div>
+
+            <hr style={{ margin: '25px', width: '70vw' }} />
+
+            <div className="imgs_site" >
+                <img src={GeradorSenha} style={{ width: '25%', height: '25em', marginLeft: '10vw', borderRadius: '10px' }} />
+                <p style={{ fontSize: '1.3em', marginRight: '1vw' }}>
+                    <h6 style={{ color: '#C68107' }}>Gerador de Senhas</h6>
+                    Este aplicativo é um Gerador de Senhas desenvolvido como um projeto para aprofundar meus conhecimentos em React Native. O principal objetivo deste projeto é criar um aplicativo prático e útil, enquanto exploro as funcionalidades e capacidades do React Native.
+                    O app permite aos usuários gerar senhas escolhendo a quantidade de caracteres que a senha deve conter.
+                    <a href="https://github.com/AndersonAPinto/reactNative---GeradorDeSenha" target="_blank" rel="noopener noreferrer" style={{ color: '#ff6b08' }}> Confira no Repositório</a>.
+                </p>
+            </div>
+           
             <hr style={{ margin: '25px', width: '70vw' }} />
 
         </div>
