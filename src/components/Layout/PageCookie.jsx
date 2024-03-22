@@ -24,6 +24,7 @@ function PageCookie() {
     <div className='container__cookie' >
       Este site usa cookies para melhorar a experiência do usuário. Ao continuar navegando, você aceita o uso de cookies.
       <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' target="_blank" rel="noopener noreferrer" style={{color:'#640f04'}}> Política de Privacidade</a>.
+      <br/>
       <button className='btn_cookie' onClick={handleAccept}>Aceitar</button>
       <button className='btn_cookie' onClick={handleDecline}>Recusar</button>
     </div>
