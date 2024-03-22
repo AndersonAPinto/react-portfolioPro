@@ -16,7 +16,7 @@ function PageCookie() {
     // Aqui você pode implementar a lógica adicional para desabilitar funcionalidades baseadas em cookies
   };
 
-  if (!visible || localStorage.getItem('cookiesAccepted') === 'false') {
+  if (!visible || localStorage.getItem('cookiesAccepted') === 'true') {
     return null;
   }
 
