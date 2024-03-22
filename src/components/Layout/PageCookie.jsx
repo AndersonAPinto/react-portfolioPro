@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './pagecookie.css';
+import './pagecookiemobile.css';
 
 function PageCookie() {
   const [visible, setVisible] = useState(true);
@@ -15,7 +16,7 @@ function PageCookie() {
     // Aqui você pode implementar a lógica adicional para desabilitar funcionalidades baseadas em cookies
   };
 
-  if (!visible || localStorage.getItem('cookiesAccepted') === 'true') {
+  if (!visible || localStorage.getItem('cookiesAccepted') === 'false') {
     return null;
   }
 
@@ -25,7 +26,6 @@ function PageCookie() {
       <a href='https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' target="_blank" rel="noopener noreferrer" style={{color:'#640f04'}}> Política de Privacidade</a>.
       <button className='btn_cookie' onClick={handleAccept}>Aceitar</button>
       <button className='btn_cookie' onClick={handleDecline}>Recusar</button>
-      
     </div>
   );
 }

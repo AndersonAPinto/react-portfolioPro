@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+    .container__cookie{
+        text-align: center;
+        flex-wrap: wrap;
+        right: 0;
+        
+    }
+}
