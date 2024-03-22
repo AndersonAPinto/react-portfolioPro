@@ -43,3 +43,9 @@
     text-align: justify;
     color: #b1b1b1;
 }
+img{
+    width: 50%;
+    height: 40vh; 
+    margin-right: 15px; 
+    border-radius: 10px;
+}

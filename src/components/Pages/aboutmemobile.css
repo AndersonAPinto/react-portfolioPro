@@ -63,9 +63,13 @@
 }
 
 @media (max-width: 520px) {
+    .container_texts{
+        flex-direction: column;
+    }
+
     .title h1{
         height: 2vh;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .picture_div{
         height: 27vh;
@@ -81,5 +85,6 @@
     .text_div{
         font-size: 0.5em;
         padding: 1.5vw;
+        
     }
 }
