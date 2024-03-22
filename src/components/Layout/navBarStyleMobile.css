@@ -43,7 +43,7 @@
 
     .text_alert {
         top: -25vh;
-        left: 0;
+        left: 2vw;
         /* Ajusta a posição para não ficar fora da tela */
     }
 
