@@ -3,6 +3,7 @@ import Experience from './components/Pages/Experience.jsx';
 import AboutMe from './components/Pages/AboutMe.jsx';
 import Contact from './components/Pages/Contact.jsx';
 import Home from './components/Pages/Home.jsx';
+import PageCookie from './components/Layout/PageCookie.jsx';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
-        
+        <PageCookie/>
       </Router>
     )
 }
