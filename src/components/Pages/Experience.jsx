@@ -19,21 +19,11 @@ function Experience() {
             <hr style={{ margin: '25px', width: '70vw' }} />
             <div className="imgs_site" >
                 <p style={{ fontSize: '1.3em', marginLeft: '5px' }}>
-                    <h6 style={{ color: '#C68107' }}>Controle de Ponto</h6>
+                    <h6 style={{ color: '#C68107' }}>Controle de Registro Ponto</h6>
                     Aplicativo desenvolvido baseado em um problema real. para controlar a carga horária e não ultrapassa-la, esse app identifica os dias utéis, feriados nacionais e regionais e calcula qual o período necessário para que a carga horária permaneça correta.
                     App em Desenvolvimento de backend, construido com Figma, e desenvolvido com React Native, trará a solução adequada para o problema, futuramente estará presente na Google Play com o mesmo nome do título.
                 </p>
-                <img src={App_1} style={{ width: '25%', height: '25em', marginLeft: '10vw', borderRadius: '10px' }} />
-            </div>
-
-            <hr style={{ margin: '25px', width: '70vw' }} />
-
-            <div className="imgs_site" >
-                <img src={SiteGadj} />
-                <p style={{ fontSize: '1.3em', marginRight: '1vw' }}>
-                    <h6 style={{ color: '#C68107' }}>GADJ Ferramentas</h6>
-                    O site é uma plataforma de e-commerce especializada na venda de ferramentas e produtos industriais, criada para atender às necessidades de profissionais e empresas do setor. Com um catálogo diversificado, equipamentos sofisticados para grandes operações industriais. Destaco a facilidade de navegação do site, proporcionando uma busca ágil e satisfatória por soluções industriais completas.
-                </p>
+                <img src={App_1} style={{ width: '25%', height: '75vh', marginLeft: '10vw', borderRadius: '10px' }} />
             </div>
 
             <hr style={{ margin: '25px', width: '70vw' }} />
@@ -75,7 +65,7 @@ function Experience() {
             <hr style={{ margin: '25px', width: '70vw' }} />
 
             <div className="imgs_site" >
-                <img src={GeradorSenha} style={{ width: '25%', height: '25em', marginLeft: '10vw', borderRadius: '10px' }} />
+                <img src={GeradorSenha} style={{ width: '25%', height: '75vh', marginLeft: '10vw', borderRadius: '10px' }} />
                 <p style={{ fontSize: '1.3em', marginRight: '1vw' }}>
                     <h6 style={{ color: '#C68107' }}>Gerador de Senhas</h6>
                     Este aplicativo é um Gerador de Senhas desenvolvido como um projeto para aprofundar meus conhecimentos em React Native. O principal objetivo deste projeto é criar um aplicativo prático e útil, enquanto exploro as funcionalidades e capacidades do React Native.

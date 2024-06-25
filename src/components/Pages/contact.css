@@ -32,17 +32,30 @@
 }
 .div_icons {
     display: flex;
-    height: 15vh;
+   margin-top: 10vh;
     width: 50vw;
     justify-content: space-around;
     align-items: center;
     font-size: 3em;
     transform: 0.1s ease-in-out;
-    cursor: pointer;
+    
 }
-.div_icons :hover{
-    transform: scale(0.9); 
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; 
+    height: 70px; 
+    border-radius:50%;
+    
+    color: #312502;
 }
+.icons:hover{
+    transition: 0.5s;
+    background-color: #493103;
+}
+
 .frame{
     position: absolute;
     height: 75vh;
